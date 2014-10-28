@@ -52,6 +52,7 @@ foreach my $tr (@tr) {
 		my ($street, $periodicity, $day) = map { $_->as_text }
 			$tr->find_by_tag_name('td');
 		$day = lc($day);
+		remove_trailing(\$day);
 
 		# Save.
 		# TODO Update.

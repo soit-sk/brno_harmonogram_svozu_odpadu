@@ -6,9 +6,10 @@ TODO
    Stejne tak:
    INSERT INTO "data" VALUES('pondělí ','Židenice','1x týdně','Velkopavlovická');
    INSERT INTO "data" VALUES('pondělí čtvrtek ','Židenice','2x týdně','Velkopavlovická');
-2. Patri odstranit mezery.
-   INSERT INTO "data" VALUES('úterý ','Židenice','1x týdně','Veleckého');
 3.
 
 Applied
 =======
+2. Patri odstranit mezery.
+   INSERT INTO "data" VALUES('úterý ','Židenice','1x týdně','Veleckého');
+OK [20141028] skim
